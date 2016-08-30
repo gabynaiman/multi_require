@@ -1,4 +1,4 @@
-# RequireRelativePath
+# MultiRequire
 
 Easy way to require multiple files from a relative path
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install require_all
+    $ gem install multi_require
 
 ## Usage
 

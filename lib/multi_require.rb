@@ -8,7 +8,7 @@ module MultiRequire
   end
 
   def require_relative_pattern(pattern)
-    source_path = File.dirname caller_locations[0].absolute_path
+    source_path = File.dirname caller.first.split(':').first
     require_pattern File.join(source_path, pattern)
     true
   end
